@@ -1,0 +1,18 @@
+static String DIV = "/";public static ArrayList<Token> lexer(String s) {
+ArrayList<Token> tokens = new ArrayList<>();StringBuffer
+Ant12w
+int)
+keyword classclass
+int       
+int3
+int=
+int==   int===
+
+   Matcher matcher = tokenPatterns.matcher(s);
+        while (matcher.find()) {
+            if (matcher.group(TokenType.NUMBER.name()) != null) {
+                tokens.add(new Token(TokenType.NUMBER, matcher.group(TokenType.NUMBER.name())));
+
+        return tokens;
+
+    }
